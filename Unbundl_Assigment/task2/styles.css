@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5e8d9;
+  color: #4a2b1e;
+}
+
+header {
+  background-color: #4a2b1e;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.product-bundle {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5e8d9;
+  border-radius: 5px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.quantity-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-controls button {
+  background-color: #7a4a33;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.quantity-controls button:hover {
+  background-color: #4a2b1e;
+}
+
+.bundle-summary {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.add-to-cart {
+  background-color: #4a2b1e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #7a4a33;
+}
+
+.add-to-cart i {
+  margin-right: 5px;
+}
+
+footer {
+  background-color: #4a2b1e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
